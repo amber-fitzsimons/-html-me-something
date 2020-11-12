@@ -7,6 +7,10 @@ div {
     text-justify: inter-word;
   }
 
+  #customHeader {
+      text-shadow: 2px 2px 2px cadetblue;
+  }
+
 h1 {
     margin-bottom: 50px;
 }
