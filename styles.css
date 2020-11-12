@@ -3,21 +3,39 @@ div {
     padding-right: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
+    text-align: justify;
+    text-justify: inter-word;
   }
 
 h1 {
-    color:teal; position:relative;
+    margin-bottom: 50px;
 }
 
-p {
-    border:15px;
+nav {
+    margin-bottom: 50px;
 }
 
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
     padding: 5px;
 }
 
+figcaption {
+    font-weight: bold;
+}
 
+section {
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15 px;
+  }
