@@ -1,0 +1,23 @@
+div {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+  }
+
+h1 {
+    color:teal; position:relative;
+}
+
+p {
+    border:15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
