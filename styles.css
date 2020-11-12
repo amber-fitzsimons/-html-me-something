@@ -5,10 +5,12 @@ div {
     padding-left: 50px;
     text-align: justify;
     text-justify: inter-word;
+    background-color: rgba(255, 248, 220, 0.144);
   }
 
   #customHeader {
       text-shadow: 2px 2px 2px cadetblue;
+      text-align: center;
   }
 
 h1 {
@@ -17,6 +19,13 @@ h1 {
 
 nav {
     margin-bottom: 50px;
+    text-align: center;
+}
+
+nav ul li {
+  display: inline-block; 
+  margin-right: 1em; 
+  color: cadetblue;
 }
 
 img {
