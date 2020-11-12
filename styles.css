@@ -23,6 +23,8 @@ img {
 
 figcaption {
     font-weight: bold;
+    margin-bottom: 15px;
+    font-size: smaller;
 }
 
 section {
@@ -31,11 +33,17 @@ section {
 
 .row {
     display: flex;
+    margin-top: -80px;
+    margin-bottom: -90px;
   }
   
   .column {
     flex: 50%;
     padding-left: 15px;
     padding-right: 15px;
-    margin-top: 15 px;
+    margin-top: 20 px;
+  }
+
+  footer {
+      margin-top: 50px;
   }
